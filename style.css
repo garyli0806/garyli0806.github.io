@@ -1,8 +1,6 @@
-body {
-  background-color: lightblue;
-}
-
-h1 {
-  color: navy;
-  margin-left: 20px;
+.portfolioHeader{
+  height:400px;
+  width:600px;
+  border:1px solid;
+  background-color: 009900;
 }
