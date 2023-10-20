@@ -2,7 +2,6 @@
   display: flex;
   height:10%;
   width:100%;
-  padding: 1% 10% 0%;
   box-sizing: border-box;
   border:3px solid;
   background-color: coral;
@@ -26,5 +25,5 @@
 html, body
 {
     margin: 0;
-    padding: 0;
+    padding: 0.7% 6% 0%;
 }
