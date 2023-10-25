@@ -1,27 +1,28 @@
-.column1{
-  flex: 2 1 0;
-  box-sizing: border-box;
-  border:3px solid;
-  background-color: purple;
-}
-
-.column2{
-  flex: 1 1 0;
-  box-sizing: border-box;
-  border:3px solid;
-  background-color: coral;
+.box{
+  display: grid;
+  grid-template-columns: 60% 40%;
+  row-gap: 20%;
+  /*
+  background-color: red;
+  border: 3px solid;
+  */
 }
 
 .portfolioHeaderName{
   width: fit-content;
   margin-right: auto;
+  grid-row: 1;
+  /*
+  background-color: red;
+  border:3px solid;
+  */
 }
 
 .portfolioHeaderLinks{
   display: flex;
   width: 60%;
   gap: 5%;
-  justify-content: flex-end;
+  grid-row: 1;
   /*
   background-color: blue;
   border:3px solid;
@@ -29,22 +30,24 @@
 }
 
 .portfolioIntro{
-  
+  grid-row: 2;
+  background-color: green;
+  border:3px solid;
 }
 
 .portfolioImage{
+  grid-row: 2;
   /*
-  background-color: orange;
+  background-color: indigo;
   border:3px solid;
   */
 }
 
-.box{
-  display: flex;
-  /*
-  background-color: red;
-  border: 3px solid;
-  */
+.headshotImage{
+  border-radius: 5%;
+  /*TODO: Change width/height to use % */
+  width:132.05px;
+  height:201.6px;
 }
 
 html, body
