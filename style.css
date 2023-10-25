@@ -1,7 +1,12 @@
-.portfolioHeader{
-  display: flex;
-  height:10%;
-  width:100%;
+.column1{
+  flex: 2 1 0;
+  box-sizing: border-box;
+  border:3px solid;
+  background-color: purple;
+}
+
+.column2{
+  flex: 1 1 0;
   box-sizing: border-box;
   border:3px solid;
   background-color: coral;
@@ -10,26 +15,36 @@
 .portfolioHeaderName{
   width: fit-content;
   margin-right: auto;
-  background-color: red;
 }
 
 .portfolioHeaderLinks{
   display: flex;
   width: 60%;
   gap: 5%;
+  justify-content: flex-end;
+  /*
   background-color: blue;
   border:3px solid;
-  justify-content: flex-end;
+  */
 }
 
 .portfolioIntro{
-  background-color: green;
-  border:3px solid;
+  
 }
 
 .portfolioImage{
+  /*
   background-color: orange;
   border:3px solid;
+  */
+}
+
+.box{
+  display: flex;
+  /*
+  background-color: red;
+  border: 3px solid;
+  */
 }
 
 html, body
