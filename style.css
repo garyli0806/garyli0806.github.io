@@ -81,6 +81,11 @@
   height:201.6px;
 }
 
+html * {
+  /* TODO: Change font*/
+  font-family: Nunito, sans-serif;
+}
+
 html, body{
     margin: 0;
     padding: 0.7% 6% 0%;
