@@ -3,6 +3,7 @@
 TODO:
 1. Create project pages with pdfs
 2. Update resume
+3. Add transcript/diploma to about page
 3. Create main webpage
 4. Create responsive website that supports mobile (https://www.youtube.com/watch?v=UUjNEMXZA-k)
 
